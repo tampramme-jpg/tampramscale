@@ -1,4 +1,4 @@
-tampramscales/
+tampramscale/
 ├── index.html
 ├── about-us/
 │   └── index.html
