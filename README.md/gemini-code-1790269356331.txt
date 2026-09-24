@@ -1,0 +1,42 @@
+tampramscales/
+├── index.html
+├── about-us/
+│   └── index.html
+├── web-designing/
+│   └── index.html
+├── web-development/
+│   └── index.html
+├── seo/
+│   └── index.html
+├── digital-marketing/
+│   └── index.html
+├── graphics-designing/
+│   └── index.html
+├── ai-automation/
+│   └── index.html
+├── ai-agent/
+│   └── index.html
+├── projects/
+│   └── index.html
+├── contact/
+│   └── index.html
+└── assets/
+    ├── css/
+    │   └── style.css
+    ├── js/
+    │   └── main.js
+    └── images/
+        ├── logo.png                <-- (Place your TamPramScale transparent logo here)
+        └── projects/
+            ├── atecsteamcleaning.jpg
+            ├── baseglamp.jpg
+            ├── carvaletcork.jpg
+            ├── oilboilercork.jpg
+            ├── dublinpaving.jpg
+            ├── farmtekshed.jpg
+            ├── garagedoorssoutheast.jpg
+            ├── irishdesignworks.jpg
+            ├── cleaningprofessionals.jpg
+            ├── monicafergus.jpg
+            ├── jhnconstruction.jpg
+            └── yourlocalgardening.jpg

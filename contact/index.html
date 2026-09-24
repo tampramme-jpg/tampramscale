@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact TamPramScale | Let's Talk About Your Project</title>
+  <meta name="description" content="Get in touch with TamPramScale. Inquire about Web Design, Web Development, SEO, Digital Marketing, Graphics, AI Automation, or AI Agents.">
+  <link rel="canonical" href="https://tampramme-jpg.github.io/tampramscales/contact/">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="../" class="brand-logo"><img src="../assets/images/logo.png" alt="TamPramScale Logo" width="180" height="44"></a>
+      <nav class="nav-desktop">
+        <ul class="nav-links">
+          <li class="nav-item"><a href="../" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="../about-us/" class="nav-link">About Us</a></li>
+          <li class="nav-item dropdown">
+            <a href="../web-designing/" class="nav-link">Services ▼</a>
+            <ul class="dropdown-menu">
+              <li><a href="../web-designing/" class="dropdown-link">Web Designing</a></li>
+              <li><a href="../web-development/" class="dropdown-link">Web Development</a></li>
+              <li><a href="../seo/" class="dropdown-link">SEO</a></li>
+              <li><a href="../digital-marketing/" class="dropdown-link">Digital Marketing</a></li>
+              <li><a href="../graphics-designing/" class="dropdown-link">Graphics Designing</a></li>
+              <li><a href="../ai-automation/" class="dropdown-link">AI Automation</a></li>
+              <li><a href="../ai-agent/" class="dropdown-link">AI Agent</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="../projects/" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="../contact/" class="nav-link active">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="../contact/" class="btn btn-primary nav-desktop">Let's Talk →</a>
+      <button class="mobile-toggle" aria-label="Open Navigation"><span class="hamburger-line"></span><span class="hamburger-line"></span><span class="hamburger-line"></span></button>
+    </div>
+    <div class="mobile-drawer">
+      <ul class="mobile-nav-list">
+        <li><a href="../" class="mobile-nav-link">Home</a></li>
+        <li><a href="../about-us/" class="mobile-nav-link">About Us</a></li>
+        <li><a href="../contact/" class="mobile-nav-link" style="color:var(--neon-green)">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="badge-neon">GET IN TOUCH</span>
+          <h1>Let's Talk About Your Project</h1>
+          <p class="hero-subtext">“Whether you need a new website, better visibility, stronger digital marketing or smarter automation, let’s discuss your next digital project.”</p>
+          
+          <div style="display:flex; flex-direction:column; gap:16px; margin-top:16px;">
+            <div class="card-prem" style="padding:16px;">
+              <span style="font-size:0.8rem; color:var(--text-gray-400);">PHONE / WHATSAPP</span>
+              <a href="tel:+919002872727" style="color:#ffffff; font-weight:700; font-size:1.1rem; margin-top:4px;">+91 9002872727</a>
+            </div>
+            <div class="card-prem" style="padding:16px;">
+              <span style="font-size:0.8rem; color:var(--text-gray-400);">DIRECT EMAIL</span>
+              <a href="mailto:tampram.me@gmail.com" style="color:#ffffff; font-weight:700; font-size:1.1rem; margin-top:4px;">tampram.me@gmail.com</a>
+            </div>
+            <div class="card-prem" style="padding:16px;">
+              <span style="font-size:0.8rem; color:var(--text-gray-400);">WHATSAPP CHAT</span>
+              <a href="https://wa.me/919002872727" target="_blank" rel="noopener noreferrer" style="color:var(--neon-green); font-weight:700; font-size:1.1rem; margin-top:4px;">Open WhatsApp Directly →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- FORM CONTAINER -->
+        <div class="card-prem" style="padding: clamp(24px, 4vw, 36px);">
+          <h3 style="margin-bottom:8px;">Start a Conversation</h3>
+          <p style="margin-bottom:24px;">Fill out this form and we'll reply directly to your email address.</p>
+
+          <!-- 
+            CONFIGURATION INSTRUCTION:
+            Replace 'https://formspree.io/f/YOUR_FORMSPREE_ENDPOINT' with your Formspree Form ID
+            (e.g., https://formspree.io/f/mqkrzyov) which sends directly to tampram.me@gmail.com
+          -->
+          <form id="agencyContactForm" action="https://formspree.io/f/YOUR_FORMSPREE_ENDPOINT" method="POST">
+            <!-- Honeypot anti-spam trap (hidden from real users) -->
+            <input type="text" name="_gotcha" style="display:none !important;" tabindex="-1" autocomplete="off">
+
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="userName" class="form-label">Name *</label>
+                <input type="text" id="userName" name="name" class="form-control" placeholder="John Doe" required>
+              </div>
+
+              <div class="form-group">
+                <label for="userEmail" class="form-label">Email *</label>
+                <input type="email" id="userEmail" name="email" class="form-control" placeholder="john@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="userPhone" class="form-label">Phone</label>
+                <input type="tel" id="userPhone" name="phone" class="form-control" placeholder="+91 9002872727">
+              </div>
+
+              <div class="form-group">
+                <label for="userCompany" class="form-label">Company / Business Name</label>
+                <input type="text" id="userCompany" name="company" class="form-control" placeholder="Acme Inc.">
+              </div>
+
+              <div class="form-group form-full">
+                <label for="userService" class="form-label">Service *</label>
+                <select id="userService" name="service" class="form-control" required>
+                  <option value="" disabled selected>Select a Service</option>
+                  <option value="Web Designing">Web Designing</option>
+                  <option value="Web Development">Web Development</option>
+                  <option value="SEO">SEO</option>
+                  <option value="Digital Marketing">Digital Marketing</option>
+                  <option value="Graphics Designing">Graphics Designing</option>
+                  <option value="AI Automation">AI Automation</option>
+                  <option value="AI Agent">AI Agent</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-group form-full">
+                <label for="userMessage" class="form-label">Message *</label>
+                <textarea id="userMessage" name="message" class="form-control" placeholder="Tell us about your project requirements..." required></textarea>
+              </div>
+
+              <!-- 
+                CAPTCHA INTEGRATION POINT:
+                To activate Cloudflare Turnstile or Google reCAPTCHA v2/v3:
+                1. Include script: <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+                2. Insert container below with your public site key:
+                   <div class="cf-turnstile" data-sitekey="YOUR_CAPTCHA_SITE_KEY"></div>
+              -->
+              <div class="form-full" id="captchaContainer">
+                <!-- Turnstile / reCAPTCHA renders here when configured -->
+              </div>
+
+              <div class="form-full">
+                <button type="submit" class="btn btn-primary" style="width:100%;">Send Message →</button>
+              </div>
+            </div>
+
+            <div id="formStatus" class="form-status" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <a href="https://wa.me/919002872727?text=Hello%20TamPramScale%2C%20I%20would%20like%20to%20know%20more%20about%20your%20digital%20services." class="whatsapp-floating" target="_blank" rel="noopener noreferrer"><div class="whatsapp-bubble"><svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.54 2.052.83 3.19.831 3.181 0 5.767-2.586 5.768-5.766 0-3.18-2.587-5.767-5.767-5.767zm7.42 5.767c0 4.093-3.328 7.421-7.42 7.421-1.309 0-2.551-.341-3.633-.941l-4.041 1.06 1.079-3.94c-.696-1.127-1.065-2.433-1.065-3.774 0-4.093 3.328-7.421 7.42-7.421s7.42 3.328 7.42 7.421z"/></svg></div></a>
+  <footer class="site-footer">
+    <div class="container"><div class="footer-bottom"><span>© 2026 TamPramScale. All Rights Reserved.</span><span>Build. Automate. Grow.</span></div></div>
+  </footer>
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>
