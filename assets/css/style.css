@@ -288,6 +288,93 @@ p {
 }
 
 /* Mobile Hamburger Menu */
+/* ==========================================================================
+   MOBILE HAMBURGER & DRAWER
+   ========================================================================== */
+
+/* 1. Desktop default: Hide both the button and the drawer */
+.mobile-toggle {
+  display: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  color: var(--text-white);
+}
+
+.hamburger-line {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: #ffffff;
+  margin: 5px 0;
+  transition: var(--transition-smooth);
+}
+
+.mobile-drawer {
+  display: none; /* Keeps the mobile menu completely hidden on desktop */
+}
+
+/* 2. Under 1024px: Activate mobile menu */
+@media (max-width: 1024px) {
+  .mobile-toggle {
+    display: block;
+  }
+
+  .nav-desktop {
+    display: none;
+  }
+
+  .mobile-drawer {
+    display: block;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 80px);
+    background: #000000;
+    border-top: 1px solid var(--border-dim);
+    padding: 32px 24px;
+    transform: translateX(-100%);
+    transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    overflow-y: auto;
+    z-index: 999;
+  }
+
+  .mobile-drawer.open {
+    transform: translateX(0);
+  }
+
+  .mobile-nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .mobile-nav-link {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-gray-100);
+    display: block;
+    padding: 8px 0;
+  }
+
+  .mobile-submenu {
+    list-style: none;
+    padding-left: 16px;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-left: 2px solid var(--border-dim);
+  }
+
+  .mobile-submenu a {
+    color: var(--text-gray-400);
+    font-size: 1rem;
+  }
+}
 .mobile-toggle {
   display: none;
   background: transparent;
